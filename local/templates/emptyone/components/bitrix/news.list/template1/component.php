@@ -25,7 +25,7 @@ if (!isset($arParams["CACHE_TIME"]))
     $arParams["CACHE_TIME"] = 36000000;
 
 require_once(__DIR__ . '/class.php');
-$handler = new NLHandler();
+$handler = new NLHandler;
 
 
 $arParams["IBLOCK_TYPE"] = trim($arParams["IBLOCK_TYPE"]);
